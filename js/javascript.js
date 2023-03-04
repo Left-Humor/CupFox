@@ -35,7 +35,7 @@ setTimeout(()=>{
     clearInterval(time)
 
     changeProgress(100)
-window.location.href="http://cupfox.app"
+window.location.href="http://xc.com"
 },
 4000);
 
