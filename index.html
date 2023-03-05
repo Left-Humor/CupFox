@@ -1,132 +1,101 @@
-<html>
- <head> 
-  <script src="js/jq.js"></script> 
- </head> 
- <body id="v1"> 
-  <meta id="v2" charset="UTF-8"> 
-  <meta id="v3" http-equiv="X-UA-Compatible" content="IE=Edge"> 
-  <meta id="v4" name="viewport" content="width=device-width, initial-scale=1"> 
-  <title id="v5">CupFox 第三方茶杯狐App 腾讯X5内核  </title> 
-  <!-- HTML --> 
-  <style id="v6">
-  *{
-    margin:0;
-    padding:0;
-  }
-  body{
-    background-color: #ffd300;
-  }
-.logo{
-  margin:15px auto;
-  width:70px;
-  height:70px;
-  border-radius:50%;
-  background-color:#fafffe;
-  
-  }
-.logo img{
-  width:90%;
-  height:90%;
-  position:relative;
-  top:5px;
-  left:2px;
-  }
-.logowz{
-  margin:auto;
-  text-align: center;
-  margin-bottom:20px;
-  }
-  .k{
-    margin: auto;
-    margin-bottom: 20px;
-    height: 30px;
-    width:80%;
-    background-color: #c3bc1c;
-    border-radius:15px;
-  }
-  .z{
-    margin:auto;
-    height: 30px;
-    width:80%;
-    border-radius:15px;
-    display: flex;
-    align-items: center;
-  }
-  .x{
-    margin:40px auto;
-    padding: 20px 0px 20px 0px;
-    width:90%;
-    border-radius:10px;
-    background-color:#fff5b8;
-  }
-  .an button{
-    margin: auto;
-    width:22.5%;
-    height:30px;
-    border-radius:10px;
-    border:1px solid black;
-    background-color:#00ffe1
-    
-  }
-  .an{
-    margin:auto;
-    width:90%;
-    display: flex;
-  }
-  .txt{
-    width:85%;
-    height: 350px;
-    margin:30px auto;
-    padding: 10px;
-    background-color: #ffffff;
-    word-wrap:break-word;
-    overflow: scroll;
-    border-radius:10px;
-  }
-  .d{
-    margin: auto;
-    text-align: center;
-  }
-  #q{
-    font-size: 16px;
-    color:#304098;
-  }
-  #z{
-    font-size: 13px;
-  }
-  
-  </style> 
-  <div id="v7" class="x"> 
-   <div id="v8" class="k"> 
-    <div id="v9" class="z"> 
-     <marquee id="v10">
-       不要分享给你的朋友，好东西自己用！！！
-     </marquee> 
-    </div> 
-   </div> 
-   <div id="v11" class="logo"> 
-    <img id="v12" src="icon.png"> 
-   </div> 
-   <div id="v13" class="logowz"> 
-    <span id="v14">茶杯狐 第三方App</span> 
-   </div> 
-   <div id="v15" class="an"> 
-    <button id="v16" onclick="window.location.href = 'https://lefthumor.cn/CupFox_1.1.apk' ">立即下载</button> 
-   </div> 
-   <div id="v20" class="txt"> 
-    <span id="v21">公告栏 <br id="v22"><br id="v23"> 
-    1.茶杯狐第三方App，播放便捷，清晰度高 <br id="v24"><br id="v25"> 
-    2. 该应用可以运行 如果觉得不错请可以打赏 制作人微信：lefthumor_cn <br id="v26"><br id="v27">
-    3.出问题后果自负</span> 
-   </div> 
-   <div id="v28" class="d"> 
-    <span id="q">仅供学习交流，请下载后24小时内自行删除，否则后果自负</span> 
-    <br id="v29"> 
-    <span id="z">作者QQ:3543242357</span> 
-   </div> 
-<audio src="bx.mp3"  autoplay="bx.mp3"  loop="bx.mp3"</audio>
-  </div &gt
-  <br> 
-  <span id="z">作者QQ:3543242357</span>  
- </body>
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CupFox powered by X5</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+			color: #333;
+		}
+
+		.container {
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.logo {
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			background-color: #fff;
+			margin: 0 auto;
+			margin-top: 50px;
+			box-shadow: 0 0 5px rgba(0,0,0,.2);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.logo img{
+			width: 60%;
+			height: 60%;
+			object-fit: cover;
+			object-position: center;
+		}
+
+		h1 {
+			font-size: 24px;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		.version {
+			font-size: 16px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.description {
+			font-size: 14px;
+			line-height: 1.5;
+			text-align: justify;
+			margin-bottom: 30px;
+		}
+
+		.btn-download {
+			display: block;
+			background-color: #D8532F;
+			color: #fff;
+			text-align: center;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 15px;
+			border-radius: 5px;
+			text-decoration: none;
+			margin: 0 auto;
+			max-width: 200px;
+			box-shadow: 0 0 5px rgba(0,0,0,.2);
+		}
+
+		.footer {
+			font-size: 12px;
+			text-align: center;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+			<img src="icon.png" alt="App Icon">
+		</div>
+		<h1>CupFox</h1>
+		<div class="version">版本：1.1</div>
+		<div class="description">
+			茶杯狐第三方App<br/>好东西自己用，别分享给别人！
+		</div>
+		<a href="http://lefthumor.cn/CupFox1.1.apk" class="btn-download">立即下载</a>
+		<div class="footer">版权所有 LH © 2023</div>
+	</div>
+</body>
 </html>
+
